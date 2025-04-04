@@ -1,39 +1,70 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 body {
-background-color: rgb(31, 88, 57);
-font-family:'Arial Narrow', Arial, sans-serif;
-padding: 50px;
-color: ghostwhite;
+  background: linear-gradient(to bottom, #1b408f, #121212);
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  color: ghostwhite;
 }
 
-.titulo{
-    color: ghostwhite;
-    margin-bottom: 25px;
+.container {
+  max-width: 1024px;
 }
 
-.descripcion{
-    color: ghostwhite;
-    text-align: right;
-    padding-left: 70px;
-    margin-left: 100px;
+.titulo {
+  color: ghostwhite;
+  margin-bottom: 40px;
 }
 
-.card1{}
+/*estilos de tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 
-.card2{}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
 
-.card3{}
+th {
+  background-color: #222;
+}
 
-.card4{}
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 
-.card5{}
+/* estilos de recomendaciones */
+.albums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
 
+.album img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
 
+.album p {
+  text-align: left;
+  font-size: 0.9rem;
+}
 
-
+.album span {
+  color: #bbb;
+  font-size: 0.7rem;
+  text-align: left;
+}
