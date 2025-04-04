@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+background-color: rgb(31, 88, 57);
+font-family:'Arial Narrow', Arial, sans-serif;
+padding: 50px;
+color: ghostwhite;
+}
+
+.titulo{
+    color: ghostwhite;
+    margin-bottom: 25px;
+}
+
+.descripcion{
+    color: ghostwhite;
+    text-align: right;
+    padding-left: 70px;
+    margin-left: 100px;
+}
+
+.card1{}
+
+.card2{}
+
+.card3{}
+
+.card4{}
+
+.card5{}
+
+
+
+
