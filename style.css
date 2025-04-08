@@ -3,12 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   height: 100%;
+  background: linear-gradient(to bottom, #1b408f, #121212);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 body {
-  background: linear-gradient(to bottom, #1b408f, #121212);
   font-family: Arial, sans-serif;
   padding: 40px;
   color: ghostwhite;
@@ -20,7 +24,7 @@ body {
   margin: 0 auto;
 }
 
-.titulo {
+.playlist-tittle {
   color: ghostwhite;
   margin-bottom: 40px;
 }
@@ -55,9 +59,26 @@ table td:nth-child(2) {
   margin: 0px;
 }
 
-.songRow:hover {
+.song-row:hover {
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
+}
+
+.download-cell {
+  text-align: center;
+}
+
+.download-icon {
+  background-color: #1db954; /* Spotify green */
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* estilos de recomendaciones */
