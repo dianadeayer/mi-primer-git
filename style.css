@@ -40,24 +40,21 @@ table {
 
 th,
 td {
+  height: 45px;
   padding: 8px;
   text-align: left;
   vertical-align: middle;
 }
 
-.thumb-column-flex {
-  display: flex;
-  align-items: center;
-}
-
-table td:nth-child(2) {
+.thumb-column {
   width: 45px;
-  padding-left: 2px;
+  height: inherit;
+  vertical-align: middle;
 }
 
 .song-thumb {
-  width: 40px;
-  height: auto;
+  width: 45px;
+  height: 45px;
   object-fit: cover;
   border-radius: 6px;
 }
